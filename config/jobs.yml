@@ -1,0 +1,29 @@
+jobs:
+ magellan:
+  from: D:\www\receiver\magellan
+  to: 172.30.90.114
+  user: "xxx"
+  password: "&xxx"
+  port: 21
+  ftp_folder: /data/magellan/test
+  onfinished: D:\www\receiver\newdest
+ masas:
+  from: F:\publications\group_intranets\masas\live-tocopy
+  to: 172.30.90.114
+  user: "xxx"
+  password: "&xxx"
+  port: 21
+  ftp_folder: /data/intranetmasas
+  onfinished: F:\publications\group_intranets\masas\live
+ xmlelvia:
+  from: F:\publications\track_one\live\MA_FRANCE_CONVERGENCE\fr\xml
+  to: 172.30.252.20
+  user: "xxx"
+  password: "xxx"
+  port: 21
+  ftp_folder: 
+  onfinished: F:\publications\track_one\live\MA_FRANCE_CONVERGENCE\fr\xml_copied
+
+#  to: 172.30.46.234
+#  user: magdevel
+#  password: magmag
